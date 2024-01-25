@@ -1,32 +1,388 @@
 {
     "chain_name": "osmosis",
     "coingecko": "osmosis",
-    "api": ["https://lcd.osmosis.zone","https://api-osmosis-ia.cosmosia.notional.ventures", "https://osmosis-api.polkachu.com", "https://lcd-osmosis.blockapsis.com"],
-    "rpc": ["https://rpc.osmosis.zone", "https://rpc-osmosis-ia.cosmosia.notional.ventures:443", "https://osmosis-rpc.polkachu.com:443", "https://osmosis.validator.network:443", "https://rpc-osmosis.blockapsis.com:443"],
+    "api": [
+        {
+            "address": "https://lcd-osmosis.whispernode.com:443",
+            "provider": "WhisperNode 🤐"
+        },
+        {
+            "address": "https://api-osmosis.mms.team",
+            "provider": "MMS"
+        },
+        {
+            "address": "https://osmosis-rest.publicnode.com",
+            "provider": "Allnodes ⚡️ Nodes \u0026 Staking"
+        },
+        {
+            "address": "https://community.nuxian-node.ch:6797/osmosis/crpc",
+            "provider": "PRO Delegators"
+        },
+        {
+            "address": "https://osmosis-api.stake-town.com",
+            "provider": "StakeTown"
+        },
+        {
+            "address": "https://osmosis-mainnet.api.l0vd.com:443",
+            "provider": "L0vd.com ❤️"
+        },
+        {
+            "address": "https://osmosis-api.reece.sh",
+            "provider": "Reecepbcups"
+        },
+        {
+            "address": "https://api.osmosis.validatus.com:443",
+            "provider": "Validatus"
+        },
+        {
+            "address": "https://lcd.osmosis.bronbro.io:443",
+            "provider": "Bro_n_Bro"
+        },
+        {
+            "address": "https://api-osmosis.mkv.one",
+            "provider": "MKV.one"
+        }
+    ],
+    "rpc": [
+        {
+            "address": "https://osmosis-rpc.w3coins.io",
+            "provider": "w3coins"
+        },
+        {
+            "address": "https://rpc-osmosis.mms.team",
+            "provider": "MMS"
+        },
+        {
+            "address": "https://osmosis-rpc.publicnode.com:443",
+            "provider": "Allnodes ⚡️ Nodes \u0026 Staking"
+        },
+        {
+            "address": "https://community.nuxian-node.ch:6797/osmosis/trpc",
+            "provider": "PRO Delegators"
+        },
+        {
+            "address": "http://rpc-osmosis.freshstaking.com:31657",
+            "provider": "FreshSTAKING"
+        },
+        {
+            "address": "https://osmosis-rpc.stake-town.com",
+            "provider": "StakeTown"
+        },
+        {
+            "address": "https://osmosis-mainnet.rpc.l0vd.com:443",
+            "provider": "L0vd.com ❤️"
+        },
+        {
+            "address": "https://osmosis-rpc.reece.sh",
+            "provider": "Reecepbcups"
+        },
+        {
+            "address": "https://rpc.osmosis.validatus.com",
+            "provider": "Validatus"
+        },
+        {
+            "address": "https://rpc.osmosis.bronbro.io:443",
+            "provider": "Bro_n_Bro"
+        },
+        {
+            "address": "https://rpc-osmosis.mkv.one",
+            "provider": "MKV.one"
+        }
+    ],
     "snapshot_provider": "",
     "sdk_version": "0.46.1",
     "coin_type": "118",
     "min_tx_fee": "800",
     "addr_prefix": "osmo",
-    "logo": "/logos/osmosis.jpg",
+    "logo": "/logos/osmo.svg",
     "theme_color": "#812cd6",
-    "assets": [{
-        "base": "uosmo",
-        "symbol": "OSMO",
-        "exponent": "6",
-        "coingecko_id": "osmosis", 
-        "logo": "/logos/osmosis.jpg"
-    },{
-        "base": "uion",
-        "symbol": "ION",
-        "exponent": "6",
-        "coingecko_id": "ion", 
-        "logo": "/logos/osmosis.jpg"
-    },{
-        "base": "usomm",
-        "symbol": "SOMM",
-        "exponent": "6",
-        "coingecko_id": "somm", 
-        "logo": ""
-    }]
+    "assets": [
+        {
+            "base": "uosmo",
+            "symbol": "OSMO",
+            "exponent": "6",
+            "coingecko_id": "osmosis",
+            "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.svg"
+        },
+        {
+            "base": "uion",
+            "symbol": "ION",
+            "exponent": "6",
+            "coingecko_id": "ion",
+            "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/ion.svg"
+        },
+        {
+            "base": "factory/osmo14klwqgkmackvx2tqa0trtg69dmy0nrg4ntq4gjgw2za4734r5seqjqm4gm/uibcx",
+            "symbol": "IBCX",
+            "exponent": "6",
+            "coingecko_id": "ibc-index",
+            "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/ibcx.svg"
+        },
+        {
+            "base": "factory/osmo1xqw2sl9zk8a6pch0csaw78n4swg5ws8t62wc5qta4gnjxfqg6v2qcs243k/stuibcx",
+            "symbol": "stIBCX",
+            "exponent": "6",
+            "coingecko_id": "",
+            "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/stibcx.svg"
+        },
+        {
+            "base": "ibc/D189335C6E4A68B513C10AB227BF1C1D38C746766278BA3EEB4FB14124F1D858",
+            "symbol": "USDC.axl",
+            "exponent": "6",
+            "coingecko_id": "",
+            "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.svg"
+        },
+        {
+            "base": "ibc/0B3C3D06228578334B66B57FBFBA4033216CEB8119B27ACDEE18D92DA5B28D43",
+            "symbol": "avalanche.USDC.wh",
+            "exponent": "6",
+            "coingecko_id": "",
+            "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usdc.hole.svg"
+        },
+        {
+            "base": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4",
+            "symbol": "USDC",
+            "exponent": "6",
+            "coingecko_id": "",
+            "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDCoin.svg"
+        },
+        {
+            "base": "ibc/D176154B0C63D1F9C6DCFB4F70349EBF2E2B5A87A05902F57A6AE92B863E9AEC",
+            "symbol": "stOSMO",
+            "exponent": "6",
+            "coingecko_id": "",
+            "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stosmo.svg"
+        },
+        {
+            "base": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+            "symbol": "ATOM",
+            "exponent": "6",
+            "coingecko_id": "",
+            "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg"
+        },
+        {
+            "base": "ibc/C140AFD542AE77BD7DCC83F13FDD8C5E5BB8C4929785E6EC2F4C636F98F17901",
+            "symbol": "stATOM",
+            "exponent": "6",
+            "coingecko_id": "",
+            "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.svg"
+        },
+        {
+            "base": "ibc/EA1D43981D5C9A1C4AAEA9C23BB1D4FA126BA9BC7020A25E0AE4AA841EA25DC5",
+            "symbol": "ETH",
+            "exponent": "18",
+            "coingecko_id": "",
+            "logo": ""
+        },
+        {
+            "base": "ibc/D1542AA8762DB13087D8364F3EA6509FD6F009A34F00426AF9E4F9FA85CBBF1F",
+            "symbol": "WBTC.axl",
+            "exponent": "8",
+            "coingecko_id": "",
+            "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/wbtc.axl.svg"
+        },
+        {
+            "base": "factory/osmo1dv8wz09tckslr2wy5z86r46dxvegylhpt97r9yd6qc3kyc6tv42qa89dr9/ampOSMO",
+            "symbol": "ampOSMO",
+            "exponent": "6",
+            "coingecko_id": "",
+            "logo": ""
+        },
+        {
+            "base": "ibc/4ABBEF4C8926DDDB320AE5188CFD63267ABBCEFC0583E4AE05D6E5AA2401DDAB",
+            "symbol": "USDT",
+            "exponent": "6",
+            "coingecko_id": "",
+            "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg"
+        },
+        {
+            "base": "factory/osmo1s794h9rxggytja3a4pmwul53u98k06zy2qtrdvjnfuxruh7s8yjs6cyxgd/ucdt",
+            "symbol": "CDT",
+            "exponent": "6",
+            "coingecko_id": "collateralized-debt-token",
+            "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/CDT.svg"
+        },
+        {
+            "base": "factory/osmo1s794h9rxggytja3a4pmwul53u98k06zy2qtrdvjnfuxruh7s8yjs6cyxgd/umbrn",
+            "symbol": "MBRN",
+            "exponent": "6",
+            "coingecko_id": "membrane",
+            "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/MBRN.svg"
+        },
+        {
+            "base": "ibc/D79E7D83AB399BFFF93433E54FAA480C191248FC556924A2A8351AE2638B3877",
+            "symbol": "TIA",
+            "exponent": "6",
+            "coingecko_id": "",
+            "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.svg"
+        },
+        {
+            "base": "factory/osmo1g8qypve6l95xmhgc0fddaecerffymsl7kn9muw/squosmo",
+            "symbol": "sqOSMO",
+            "exponent": "6",
+            "coingecko_id": "",
+            "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/sqosmo.svg"
+        },
+        {
+            "base": "ibc/6928AFA9EA721938FED13B051F9DBF1272B16393D20C49EA5E4901BB76D94A90",
+            "symbol": "NOIS",
+            "exponent": "6",
+            "coingecko_id": "",
+            "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nois/images/nois.svg"
+        },
+        {
+            "base": "factory/osmo1g8qypve6l95xmhgc0fddaecerffymsl7kn9muw/sqbtc",
+            "symbol": "sqBTC",
+            "exponent": "6",
+            "coingecko_id": "",
+            "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/sqbtc.svg"
+        },
+        {
+            "base": "factory/osmo1g8qypve6l95xmhgc0fddaecerffymsl7kn9muw/sqatom",
+            "symbol": "sqATOM",
+            "exponent": "6",
+            "coingecko_id": "",
+            "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/sqatom.svg"
+        },
+        {
+            "base": "ibc/E6931F78057F7CC5DA0FD6CEF82FF39373A6E0452BF1FD76910B93292CF356C1",
+            "symbol": "CRO",
+            "exponent": "8",
+            "coingecko_id": "",
+            "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cronos/images/cro.svg"
+        },
+        {
+            "base": "ibc/987C17B11ABC2B20019178ACE62929FE9840202CE79498E29FE8E5CB02B7C0A4",
+            "symbol": "STARS",
+            "exponent": "6",
+            "coingecko_id": "",
+            "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.svg"
+        },
+        {
+            "base": "ibc/FBB3FEF80ED2344D821D4F95C31DBFD33E4E31D5324CAD94EF756E67B749F668",
+            "symbol": "YieldETH",
+            "exponent": "18",
+            "coingecko_id": "",
+            "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.svg"
+        },
+        {
+            "base": "ibc/831F0B1BBB1D08A2B75311892876D71565478C532967545476DF4C2D7492E48C",
+            "symbol": "DYDX",
+            "exponent": "18",
+            "coingecko_id": "",
+            "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.svg"
+        },
+        {
+            "base": "ibc/1B708808D372E959CD4839C594960309283424C775F4A038AAEBE7F83A988477",
+            "symbol": "QSR",
+            "exponent": "6",
+            "coingecko_id": "",
+            "logo": ""
+        },
+        {
+            "base": "factory/osmo1mlng7pz4pnyxtpq0akfwall37czyk9lukaucsrn30ameplhhshtqdvfm5c/ulvn",
+            "symbol": "LVN",
+            "exponent": "6",
+            "coingecko_id": "levana-protocol",
+            "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/levana.svg"
+        },
+        {
+            "base": "factory/osmo1f5vfcph2dvfeqcqkhetwv75fda69z7e5c2dldm3kvgj23crkv6wqcn47a0/umilkTIA",
+            "symbol": "milkTIA",
+            "exponent": "6",
+            "coingecko_id": "milkyway-staked-tia",
+            "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/milktia.svg"
+        },
+        {
+            "base": "ibc/ECBE78BF7677320A93E7BA1761D144BCBF0CBC247C290C049655E106FE5DC68E",
+            "symbol": "stkOSMO",
+            "exponent": "6",
+            "coingecko_id": "",
+            "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkosmo.svg"
+        },
+        {
+            "base": "ibc/23A62409E4AD8133116C249B1FA38EED30E500A115D7B153109462CD82C1CD99",
+            "symbol": "PAGE.grv",
+            "exponent": "8",
+            "coingecko_id": "",
+            "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/page.svg"
+        },
+        {
+            "base": "ibc/F49DFB3BC8105C57EE7F17EC2402438825B31212CFDD81681EB87911E934F32C",
+            "symbol": "NOM",
+            "exponent": "",
+            "coingecko_id": "",
+            "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nomic/images/nom.svg"
+        },
+        {
+            "base": "ibc/75345531D87BD90BF108BE7240BD721CB2CB0A1F16D4EBA71B09EC3C43E15C8F",
+            "symbol": "nBTC",
+            "exponent": "14",
+            "coingecko_id": "",
+            "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nomic/images/nbtc.svg"
+        },
+        {
+            "base": "ibc/9DDF52A334F92BC57A9E0D59DFF9984EAC61D2A14E5162605DF601AA58FDFC6D",
+            "symbol": "AUTISM",
+            "exponent": "6",
+            "coingecko_id": "",
+            "logo": ""
+        },
+        {
+            "base": "ibc/9B8EC667B6DF55387DC0F3ACC4F187DA6921B0806ED35DE6B04DE96F5AB81F53",
+            "symbol": "WOOF",
+            "exponent": "6",
+            "coingecko_id": "",
+            "logo": ""
+        },
+        {
+            "base": "ibc/94ED1F172BC633DFC56D7E26551D8B101ADCCC69052AC44FED89F97FF658138F",
+            "symbol": "SNEAKY",
+            "exponent": "6",
+            "coingecko_id": "",
+            "logo": ""
+        },
+        {
+            "base": "factory/osmo1z0qrq605sjgcqpylfl4aa6s90x738j7m58wyatt0tdzflg2ha26q67k743/wbtc",
+            "symbol": "WBTC",
+            "exponent": "8",
+            "coingecko_id": "",
+            "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.svg"
+        },
+        {
+            "base": "factory/osmo1pfyxruwvtwk00y8z06dh2lqjdj82ldvy74wzm3/WOSMO",
+            "symbol": "WOSMO",
+            "exponent": "6",
+            "coingecko_id": "",
+            "logo": ""
+        },
+        {
+            "base": "ibc/D9AFCECDD361D38302AA66EB3BAC23B95234832C51D12489DC451FA2B7C72782",
+            "symbol": "NLS",
+            "exponent": "6",
+            "coingecko_id": "",
+            "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nolus/images/nolus.svg"
+        },
+        {
+            "base": "ibc/A8CA5EE328FA10C9519DF6057DA1F69682D28F7D0F5CCC7ECB72E3DCA2D157A4",
+            "symbol": "STRD",
+            "exponent": "6",
+            "coingecko_id": "",
+            "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/strd.svg"
+        },
+        {
+            "base": "factory/osmo1g8qypve6l95xmhgc0fddaecerffymsl7kn9muw/sqtia",
+            "symbol": "sqTIA",
+            "exponent": "6",
+            "coingecko_id": "",
+            "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/sqtia.svg"
+        },
+        {
+            "base": "factory/osmo1rckme96ptawr4zwexxj5g5gej9s2dmud8r2t9j0k0prn5mch5g4snzzwjv/sail",
+            "symbol": "SAIL",
+            "exponent": "6",
+            "coingecko_id": "",
+            "logo": ""
+        }
+    ]
 }

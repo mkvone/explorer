@@ -1,0 +1,40 @@
+{
+    "chain_name": "konstellation",
+    "coingecko": "darcmatter-coin",
+    "api": [
+        {
+            "address": "https://api-konstellation-ia.cosmosia.notional.ventures/",
+            "provider": "Notional"
+        },
+        {
+            "address": "https://konstellation-rest.stakerhouse.com",
+            "provider": "StakerHouse"
+        }
+    ],
+    "rpc": [
+        {
+            "address": "https://rpc-konstellation-ia.cosmosia.notional.ventures",
+            "provider": "Notional"
+        },
+        {
+            "address": "https://konstellation-rpc.stakerhouse.com",
+            "provider": "StakerHouse"
+        }
+    ],
+    "snapshot_provider": "",
+    "sdk_version": "0.46.1",
+    "coin_type": "118",
+    "min_tx_fee": "800",
+    "addr_prefix": "darc",
+    "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/konstellation/images/darc.svg",
+    "theme_color": "#012F61",
+    "assets": [
+        {
+            "base": "udarc",
+            "symbol": "DARC",
+            "exponent": "6",
+            "coingecko_id": "darcmatter-coin",
+            "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/konstellation/images/darc.svg"
+        }
+    ]
+}

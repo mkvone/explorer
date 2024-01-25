@@ -1,0 +1,116 @@
+{
+    "chain_name": "kava",
+    "coingecko": "kava",
+    "api": [
+        {
+            "address": "https://api.data.kava.io/",
+            "provider": "kava"
+        },
+        {
+            "address": "https://api-kava-ia.cosmosia.notional.ventures/",
+            "provider": "Notional"
+        },
+        {
+            "address": "https://kava-api.polkachu.com",
+            "provider": "Polkachu"
+        },
+        {
+            "address": "https://kava-mainnet-lcd.autostake.com:443",
+            "provider": "AutoStake 🛡️ Slash Protected"
+        },
+        {
+            "address": "https://kava-api.ibs.team",
+            "provider": "Inter Blockchain Services"
+        },
+        {
+            "address": "https://api-kava-01.stakeflow.io",
+            "provider": "Stakeflow"
+        },
+        {
+            "address": "https://kava-rest.publicnode.com",
+            "provider": "Allnodes ⚡️ Nodes \u0026 Staking"
+        },
+        {
+            "address": "https://api-kava.mkv.one",
+            "provider": "MKV.one"
+        }
+    ],
+    "rpc": [
+        {
+            "address": "https://rpc.data.kava.io",
+            "provider": "kava"
+        },
+        {
+            "address": "https://kava-rpc.polkachu.com",
+            "provider": "Polkachu"
+        },
+        {
+            "address": "https://rpc-kava-ia.cosmosia.notional.ventures/",
+            "provider": "Notional"
+        },
+        {
+            "address": "https://kava-mainnet-rpc.autostake.com:443",
+            "provider": "AutoStake 🛡️ Slash Protected"
+        },
+        {
+            "address": "https://kava-rpc.ibs.team",
+            "provider": "Inter Blockchain Services"
+        },
+        {
+            "address": "https://rpc-kava-01.stakeflow.io",
+            "provider": "Stakeflow"
+        },
+        {
+            "address": "https://kava-rpc.publicnode.com:443",
+            "provider": "Allnodes ⚡️ Nodes \u0026 Staking"
+        },
+        {
+            "address": "https://rpc-kava.mkv.one",
+            "provider": "MKV.one"
+        }
+    ],
+    "snapshot_provider": "",
+    "sdk_version": "0.46.1",
+    "coin_type": "118",
+    "min_tx_fee": "800",
+    "addr_prefix": "kava",
+    "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/kava.svg",
+    "theme_color": "#FF423E",
+    "assets": [
+        {
+            "base": "ukava",
+            "symbol": "KAVA",
+            "exponent": "6",
+            "coingecko_id": "kava",
+            "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/kava.svg"
+        },
+        {
+            "base": "hard",
+            "symbol": "HARD",
+            "exponent": "6",
+            "coingecko_id": "kava-lend",
+            "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/hard.svg"
+        },
+        {
+            "base": "swp",
+            "symbol": "SWP",
+            "exponent": "6",
+            "coingecko_id": "kava-swap",
+            "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/swp.svg"
+        },
+        {
+            "base": "usdx",
+            "symbol": "USDX",
+            "exponent": "6",
+            "coingecko_id": "usdx",
+            "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/usdx.svg"
+        },
+        {
+            "base": "erc20/tether/usdt",
+            "symbol": "USDT",
+            "exponent": "6",
+            "coingecko_id": "tether",
+            "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg"
+        }
+    ]
+}

@@ -1,0 +1,91 @@
+{
+    "chain_name": "e-money",
+    "coingecko": "e-money",
+    "api": [
+        {
+            "address": "https://emoney.validator.network/api/",
+            "provider": "e-Money"
+        },
+        {
+            "address": "https://api-emoney-ia.cosmosia.notional.ventures/",
+            "provider": "Notional"
+        },
+        {
+            "address": "https://api.emoney.bh.rocks",
+            "provider": "BlockHunters 🎯"
+        },
+        {
+            "address": "https://api-emoney.mkv.one",
+            "provider": "MKV.one"
+        }
+    ],
+    "rpc": [
+        {
+            "address": "https://emoney.validator.network",
+            "provider": "e-Money"
+        },
+        {
+            "address": "https://rpc-emoney-ia.cosmosia.notional.ventures/",
+            "provider": "Notional"
+        },
+        {
+            "address": "https://rpc.emoney.bh.rocks",
+            "provider": "BlockHunters 🎯"
+        },
+        {
+            "address": "https://rpc-emoney.mkv.one",
+            "provider": "MKV.one"
+        }
+    ],
+    "snapshot_provider": "",
+    "sdk_version": "0.42.10",
+    "coin_type": "118",
+    "min_tx_fee": "800",
+    "addr_prefix": "emoney",
+    "logo": "/logos/ngm.svg",
+    "theme_color": "#007C7F",
+    "assets": [
+        {
+            "base": "ungm",
+            "symbol": "NGM",
+            "exponent": "6",
+            "coingecko_id": "e-money",
+            "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/ngm.svg"
+        },
+        {
+            "base": "eeur",
+            "symbol": "EUR",
+            "exponent": "6",
+            "coingecko_id": "e-money-eur",
+            "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/eeur.svg"
+        },
+        {
+            "base": "echf",
+            "symbol": "CHF",
+            "exponent": "6",
+            "coingecko_id": "",
+            "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/echf.svg"
+        },
+        {
+            "base": "enok",
+            "symbol": "NOK",
+            "exponent": "6",
+            "coingecko_id": "",
+            "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/enok.svg"
+        },
+        {
+            "base": "edkk",
+            "symbol": "DKK",
+            "exponent": "6",
+            "coingecko_id": "",
+            "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/edkk.svg"
+        },
+        {
+            "base": "esek",
+            "symbol": "SEK",
+            "exponent": "6",
+            "coingecko_id": "",
+            "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/esek.svg"
+        }
+    ]
+}

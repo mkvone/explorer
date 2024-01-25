@@ -1,0 +1,70 @@
+{
+    "chain_name": "odin",
+    "coingecko": "odin-protocol",
+    "api": [
+        {
+            "address": "http://34.79.179.216:1317/",
+            "provider": "Odin Protocol"
+        },
+        {
+            "address": "https://odin-api.lavenderfive.com/",
+            "provider": "Lavender.Five Nodes 🐝"
+        },
+        {
+            "address": "https://odin-mainnet-lcd.autostake.com:443",
+            "provider": "AutoStake 🛡️ Slash Protected"
+        },
+        {
+            "address": "https://rpc-odin.mkv.one",
+            "provider": "MKV.one"
+        }
+    ],
+    "rpc": [
+        {
+            "address": "http://34.79.179.216:26657",
+            "provider": "Odin Protocol"
+        },
+        {
+            "address": "https://odin-rpc.lavenderfive.com/",
+            "provider": "Lavender.Five Nodes 🐝"
+        },
+        {
+            "address": "https://odin-mainnet-rpc.autostake.com:443",
+            "provider": "AutoStake 🛡️ Slash Protected"
+        },
+        {
+            "address": "https://api-odin.mkv.one",
+            "provider": "MKV.one"
+        }
+    ],
+    "snapshot_provider": "",
+    "sdk_version": "0.46.1",
+    "coin_type": "118",
+    "min_tx_fee": "800",
+    "addr_prefix": "odin",
+    "logo": "/logos/odin.webp",
+    "theme_color": "#000000",
+    "assets": [
+        {
+            "base": "loki",
+            "symbol": "ODIN",
+            "exponent": "6",
+            "coingecko_id": "odin-protocol",
+            "logo": "/logos/odin.webp"
+        },
+        {
+            "base": "mGeo",
+            "symbol": "GEO",
+            "exponent": "6",
+            "coingecko_id": "",
+            "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/geo.svg"
+        },
+        {
+            "base": "mO9W",
+            "symbol": "O9W",
+            "exponent": "6",
+            "coingecko_id": "",
+            "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/o9w.svg"
+        }
+    ]
+}
