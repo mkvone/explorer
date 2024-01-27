@@ -25,4 +25,4 @@ jobs:
       run: yarn build
 
     - name: Deploy
-      run: sudo cp -rf ./dist/* /var/www/html/
+      run: sudo cp -rf ./dist/* /var/www/html/explore/
