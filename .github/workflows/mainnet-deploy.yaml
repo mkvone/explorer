@@ -1,27 +1,25 @@
-
 name: Deploy to ping.pub
 
 on:
   push:
-    branches: [ master ]
-
+    branches: [deploy]
 
 jobs:
   deploy:
     name: Ping deploy
     runs-on: [self-hosted, linux, x64]
     steps:
-    - name: Environment
-      run:  export NODE_OPTIONS="--max_old_space_size=4096"
-      
-    - name: Git Checkout Latest
-      uses: actions/checkout@v3
-      
-    - name: Install
-      run: yarn install --ignore-engines
+      - name: Environment
+        run: export NODE_OPTIONS="--max_old_space_size=4096"
 
-    - name: Build
-      run: yarn build
+      - name: Git Checkout Latest
+        uses: actions/checkout@v3
 
-    - name: Deploy
-      run: sudo cp -rf ./dist/* /var/www/html/explore/
+      - name: Install
+        run: yarn install --ignore-engines
+
+      - name: Build
+        run: yarn build
+
+      - name: Deploy
+        run: sudo cp -rf ./dist/* /var/www/html/explore/
