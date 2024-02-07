@@ -15,7 +15,7 @@
             "provider": "AutoStake 🛡️ Slash Protected"
         },
         {
-            "address": "https://rpc-odin.mkv.one",
+            "address": "https://api-odin.mkv.one",
             "provider": "MKV.one"
         }
     ],
@@ -33,7 +33,7 @@
             "provider": "AutoStake 🛡️ Slash Protected"
         },
         {
-            "address": "https://api-odin.mkv.one",
+            "address": "https://rpc-odin.mkv.one",
             "provider": "MKV.one"
         }
     ],
